@@ -28,10 +28,15 @@ for(let i = 3; i <= 5; i++){
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
-console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-
+console.log('1.c: count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
+//Changing initialization to 2; condition to: i<=10; and iterator to i += 2;
+//I could have used an if statement to check if the iterator was even
+//but i felt this was a bit cleaner
+for(let i = 2; i <= 10; i += 2){
+  console.log(i);
+}
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
-console.log('STRETCH: countdown from 5 to 0');
+console.log('1.d: STRETCH: countdown from 5 to 0');
 
 
 // 2. For of loops  
